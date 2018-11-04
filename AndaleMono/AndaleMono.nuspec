@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>AndaleMono</id>
+    <title>Andale Mono Programming Font</title>
+    <version>2.0.0</version>
+    <authors>Monotype</authors>
+    <owners>Tobias Hein</owners>
+    <summary>Monospaced TrueType programming font</summary>
+    <description>Andale Mono is a highly legible monospaced font designed with the needs of terminal emulation and software development environments.</description>
+    <projectUrl>http://corefonts.sourceforge.net</projectUrl>
+    <tags>monospace truetype programming font</tags>
+    <licenseUrl>http://corefonts.sourceforge.net/eula.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl></iconUrl>-->
+    <releaseNotes>http://corefonts.sourceforge.net</releaseNotes>
+    <packageSourceUrl>https://github.com/tobiashein/chocolatey-packages</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
